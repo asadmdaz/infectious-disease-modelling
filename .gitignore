@@ -1,0 +1,48 @@
+# ==========================================
+# Data and Simulation Outputs
+# ==========================================
+# Ignore all generated simulation data (CSV, JSON, HDF5, Parquet, NetCDF, etc.)
+*.csv
+*.json
+*.h5
+*.parquet
+*.nc
+*.feather
+*.pkl
+*.pickle
+
+# If you have a specific folder for data, ignore everything inside it
+data/
+outputs/
+plots/
+figures/
+
+# Except the README or keep files inside those folders (optional)
+!data/.gitkeep
+!outputs/.gitkeep
+
+# ==========================================
+# Language-Specific (R)
+# ==========================================
+# R environment files and history
+.Rhistory
+.RData
+.Ruserdata
+
+# ==========================================
+# Environments and Package Managers
+# ==========================================
+# Virtual environments
+.venv/
+venv/
+env/
+.Conda/
+conda-env/
+
+# ==========================================
+# IDEs and OS Trash
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
